@@ -1,0 +1,193 @@
+
+
+/* Reset some default browser styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body, h1, h2, ul, li {
+
+    margin: 0;
+
+    padding: 0;
+	font-family: Arial, sans-serif;
+
+}
+
+body {
+	margin:0px;
+    padding:0px;
+	font-family: Arial, sans-serif;
+}
+
+
+/* Style the header and navigation */
+
+header {
+
+    background-color: #333;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 10px;
+	
+	
+	
+
+}
+.search{
+    color: orange;
+    font-weight: 500;
+    font-size: 1em;
+    border-bottom: 2px solid orange;
+	/*margin-right:15px;*/
+}
+#searchButton{
+	background-color:white;
+	color:red;
+	border:none;
+	padding:10px 15px 10px 15px;
+	cursor:pointer;
+	margin-left:auto;
+}
+
+.search:hover{
+	background-color:rgb(111, 185, 204);
+	box-shadow: 10px 15px 35px rgba(24, 139, 119, 0.2);
+	color: rgb(12, 1, 4);
+	border:5px solid rgb(111, 185, 204);
+}
+.resume {
+    width: 200px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: rgb(15, 192, 250);
+    border-radius: 10px;
+	box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+	font-size: 16px;
+	 
+
+}
+
+
+nav ul {
+
+    list-style-type: none;
+
+    display: flex;
+
+    justify-content: center;
+
+    background-color: #444;
+
+    padding: 10px;
+
+}
+
+li a:hover {
+	background-color:rgb(111, 185, 204);
+	box-shadow: 10px 15px 35px rgba(24, 139, 119, 0.2);
+	color: rgb(12, 1, 4);
+	border:5px solid rgb(111, 185, 204);
+
+	/*height:20px;
+	top:-4px; 
+	/*padding-top:11px;
+	margin-top:11px; 
+	font-size:100%;
+	display:block; */
+}
+
+	
+
+.text{
+	font-size:3.5em;
+	line-height:12px;
+	margin:50px 0px 10px 0px;
+	color:midnightblue;
+	font-family:poppins;
+	font-weight:bold;
+	
+	
+}
+
+nav li {
+
+    margin: 0 15px;
+
+}
+
+nav a {
+
+    text-decoration: none;
+
+    color: white;
+
+}
+
+
+/* Style the sections */
+
+#main {
+
+    padding: 20px;
+	width: 100%;
+	height: 50vh;
+    position: relative;
+
+}
+
+
+/* Style the footer */
+
+footer {
+
+    text-align: center;
+	color: white;
+	
+	background-color:#FF0000;
+	position : fixed;
+	left:0;
+	right:0;
+	bottom:0;
+	width:100%;
+	padding:3px;
+
+}
+
+.pic{
+	width:400px;
+	height:400px;
+}
+
+.pic img {
+	width:75%;
+	height:75%;
+	object-fit:contain;
+	margin:50px 75px 20px;
+}
+
+
+/* Style the profile picture */
+
+.pic1{
+		display:flex;
+		flex-wrap: wrap;
+		width:90%;
+		justify-content: space-around; 
+		align-items :justify;
+		position:absolute;
+		left:50%;
+		right:50%;
+		transform :translate(-50%,-50%);
+		margin:5px 50px 20px;
+		
+		
+
+}
